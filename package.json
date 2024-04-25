@@ -1,0 +1,21 @@
+{
+  "name": "@growthspace-engineering/qa-interview-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "playwright:install": "playwright install --with-deps",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "author": "thatkookooguy <neil.kalman@growthspace.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.17"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  }
+}
